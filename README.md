@@ -77,6 +77,8 @@ I am a highly skilled and motivated web developer with over a year of experience
 
 ### Socials
 
+<a href="https://drive.google.com/drive/u/1/folders/1U_qvsY570toaGiWYwpjPtpyJrWqAKNR6" target="_blank" rel="noreferrer">Resume</a>
+  &nbsp;
 <p align="left"> <a href="https://www.github.com/LifeAyush" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/thatayush" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
 
 ### Badges
