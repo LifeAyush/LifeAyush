@@ -2,16 +2,15 @@
 
 # My name is Ayush Patil ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 
-## Frontend Web Developer
+## FullStack Web Developer
 
-I am a highly skilled and motivated web developer with over a year of experience in creating and maintaining web applications. My expertise lies in front-end development using technologies such as HTML, CSS, JavaScript, and jQuery. I am also proficient in using JavaScript framework ReactJs
+I am a highly skilled and motivated web developer with over a year of experience in creating and maintaining web applications. My expertise lies in full-Stack development using the MERN stack.
 <!-- <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207..." /> -->
 
 - 🌍  I'm based in India
 - ✉️  You can contact me at [ayush_yp@ch.iitr.ac.in](mailto:ayush_yp@ch.iitr.ac.in)
-- 🚀  I'm currently working on [Kurama Games](http://kurama.io)
-- 🧠  I'm learning Socket IO and Node Js
-- 🤝  I'm open to collaborating on ReactJS, JavaScript and CSS Projects
+- 🧠  I'm learning Socket IO
+- 🤝  I'm open to collaborating on MERN Projects
 
 ---
 
