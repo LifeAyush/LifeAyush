@@ -1,4 +1,4 @@
-![MasterHead](https://github.com/LifeAyush/LifeAyush/blob/main/banner.png)
+![MasterHead]([https://github.com/LifeAyush/LifeAyush/blob/main/banner.png](https://cdn.dribbble.com/userupload/11998486/file/original-33cbb9d4fe65aaabe114cd0ab1ce8674.jpg?resize=752x))
 
 # My name is Ayush Patil ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 
