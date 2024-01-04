@@ -1,4 +1,4 @@
-![MasterHead](https://cdn.dribbble.com/userupload/11998486/file/original-33cbb9d4fe65aaabe114cd0ab1ce8674.jpg?resize=752x](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)
+![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)
 
 # My name is Ayush Patil ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 
