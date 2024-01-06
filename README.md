@@ -71,5 +71,3 @@ I am a highly skilled and motivated web developer with over a year of experience
 
 <br clear="both">
 
-![Snake](https://profile-readme-generator.com/assets/snake.svg "Snake")
-###
