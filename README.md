@@ -14,5 +14,3 @@ IIT Roorkee. Previously Anakin (YC). Bengaluru.
 - [work-os](https://github.com/LifeAyush/work-os) — Personal operating system for tasks, routines, and categories. Live: https://work-os-olive-alpha.vercel.app
 - [grocx](https://github.com/LifeAyush/grocx) — Grocery list in, cheapest basket out, including discounts across quick-commerce apps.
 - [remote-desktop](https://github.com/LifeAyush/remote-desktop) — Ops console for live CPU and memory, Docker tasks, and an SSH terminal.
-
-Founding Engineer at Breathe. Before that, Anakin (YC).
