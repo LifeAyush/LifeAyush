@@ -44,4 +44,4 @@ Built end to end to explore a problem I care about. Each is being brought up to 
 
 Python, TypeScript, Go, React and Node. PostgreSQL, Redis, Pinecone, Docker and AWS (ECS, SQS, S3, EventBridge) where the system needs them.
 
-<sub>Earlier: IIT Roorkee · Web Development Head, Student Technical Council · Thomso platform, 1M+ hits · MiniPerplexity, 100+ users</sub>
+<sub>Earlier: IIT Roorkee · Web Development Head @ Student Technical Council · Tech Lead @ TechShila · Thomso platform, 1M+ hits</sub>
