@@ -11,7 +11,7 @@ Founding engineer at **Breathe**, previously **Anakin (YC S21)**. IIT Roorkee, b
 ## Professional work
 
 ### Breathe · Founding Engineer (Full-Stack & GTM Ops) · 2025 – present
-*ESG data and reporting platform used by 40+ enterprises, including Swiggy, CEAT and Paytm.*
+*ESG data and reporting platform used by 40+ enterprises, including Rubix, Swiggy, CEAT and Paytm.*
 - Shipped **Supplier Intelligence**, Breathe's third product line, so enterprises can collect and assess supplier data across their value chain.
 - Built an AST-based **Formula Manager** so customers define complex ESG calculations without engineering help: **~40% less manual entry**.
 - Added **Isolation Forest** anomaly detection to the data pipeline: **~20% fewer audit corrections**.
@@ -19,7 +19,7 @@ Founding engineer at **Breathe**, previously **Anakin (YC S21)**. IIT Roorkee, b
 - Ran GTM as engineering: CRM workflows, partner-email analysis and pipeline reports that leadership actually reads.
 
 ### Anakin (YC S21) · Software Engineer (Backend, Infra & Data Pipelines) · 2024 – 2025
-*Web data and pricing intelligence for 40+ enterprises, including Lyft, Deliveroo, Ola and Zepto.*
+*Web data and pricing intelligence for 40+ enterprises, including Amazon, Uber, Gojek and Zepto.*
 - Built an account system serving **30+ services** at **~10 ms at 3–4K TPS**.
 - Distributed AWS ETL pipelines ingesting **200K+ products** across global platforms.
 - Shared scraper infrastructure and internal tooling: **~40% faster onboarding**, **~75% faster retrieval**.
