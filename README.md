@@ -25,7 +25,7 @@ Founding engineer at **Breathe**, previously **Anakin (YC S21)**. IIT Roorkee, b
 - Shared scraper infrastructure and internal tooling: **~40% faster onboarding**, **~75% faster retrieval**.
 
 ### Foxledger Studio · Full-Stack Developer & UI/UX Designer · 2022 – 2024
-*Web3 product studio serving 10+ organisations.* One of two developers, alongside the CTO.
+*Web3 product studio serving 10+ organisations, including Bored Ape Yacht Club, Azuki, Doodles and Beans.* One of two developers, alongside the CTO.
 - **Arcadeverse:** a community gaming platform with customisable game rooms and assets. **15 Web3 communities onboarded, 22K+ users.**
 - **Kurama:** a community engagement ecosystem with tokenization, staking, a marketplace and a feed. **2,400+ users, 900+ DAU, 7 min average time per user, 800+ feed posts.**
 
