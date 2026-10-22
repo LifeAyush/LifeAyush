@@ -10,7 +10,7 @@ Founding engineer at **Breathe**, previously **Anakin (YC S21)**. IIT Roorkee, b
 
 ## Professional work
 
-### Breathe · Founding Engineer · 2025 – present
+### Breathe · Founding Engineer (Full-Stack & GTM Ops) · 2025 – present
 *ESG data and reporting platform used by 40+ enterprises, including Swiggy, CEAT and Paytm.*
 - Shipped **Supplier Intelligence**, Breathe's third product line, so enterprises can collect and assess supplier data across their value chain.
 - Built an AST-based **Formula Manager** so customers define complex ESG calculations without engineering help: **~40% less manual entry**.
@@ -18,13 +18,13 @@ Founding engineer at **Breathe**, previously **Anakin (YC S21)**. IIT Roorkee, b
 - Semantic emission-factor mapping on **Pinecone (1M+ vectors)** for automated Scope 3 calculations.
 - Ran GTM as engineering: CRM workflows, partner-email analysis and pipeline reports that leadership actually reads.
 
-### Anakin (YC S21) · Software Engineer · 2024 – 2025
+### Anakin (YC S21) · Software Engineer (Backend, Infra & Data Pipelines) · 2024 – 2025
 *Web data and pricing intelligence for 40+ enterprises, including Lyft, Deliveroo, Ola and Zepto.*
 - Built an account system serving **30+ services** at **~10 ms at 3–4K TPS**.
 - Distributed AWS ETL pipelines ingesting **200K+ products** across global platforms.
 - Shared scraper infrastructure and internal tooling: **~40% faster onboarding**, **~75% faster retrieval**.
 
-### Foxledger Studio · Full-Stack Developer · 2022 – 2023
+### Foxledger Studio · Full-Stack Developer & UI/UX Designer · 2022 – 2024
 *Web3 product studio serving 10+ organisations.* One of two developers, alongside the CTO.
 - **Arcadeverse:** a community gaming platform with customisable game rooms and assets. **15 Web3 communities onboarded, 22K+ users.**
 - **Kurama:** a community engagement ecosystem with tokenization, staking, a marketplace and a feed. **2,400+ users, 900+ DAU, 7 min average time per user, 800+ feed posts.**
