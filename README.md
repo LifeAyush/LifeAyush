@@ -1,16 +1,37 @@
 # Ayush Patil
 
-I build products from 0 to 1.
+**I find the gap. I design the system. I ship it.**
 
-I'm the founding engineer at **Breathe**, where I work on product systems, data pipelines and AI in production. Before that I was at **Anakin (YC)**. I studied at IIT Roorkee and I'm based in Bengaluru.
-
-Most of what I build starts with a messy real-world question: which ride app is cheapest right now, which quick-commerce basket costs least after discounts, what was actually decided in that meeting. I take it from a working prototype to something people can run. The projects below are those builds, done properly: the problem, the engineering decisions, and code you can run.
+Founding engineer at **Breathe**, previously **Anakin (YC S21)**. IIT Roorkee, based in Bengaluru. I've spent my career as one of the first one or two engineers in a company, taking products from 0 to 1 and owning everything from diagnosis to production.
 
 **Open to freelance and consulting work.** If you need a product built from scratch, or a prototype turned into a real system, email me at ayushypatil.work@gmail.com.
 
 [LinkedIn](https://www.linkedin.com/in/lifeayush/) · [Email](mailto:ayushypatil.work@gmail.com)
 
-## What I've built
+## Professional work
+
+### Breathe · Founding Engineer · 2025 – present
+*ESG data and reporting platform used by 40+ enterprises, including Swiggy, CEAT and Paytm.*
+- Shipped **Supplier Intelligence**, Breathe's third product line, so enterprises can collect and assess supplier data across their value chain.
+- Built an AST-based **Formula Manager** so customers define complex ESG calculations without engineering help: **~40% less manual entry**.
+- Added **Isolation Forest** anomaly detection to the data pipeline: **~20% fewer audit corrections**.
+- Semantic emission-factor mapping on **Pinecone (1M+ vectors)** for automated Scope 3 calculations.
+- Ran GTM as engineering: CRM workflows, partner-email analysis and pipeline reports that leadership actually reads.
+
+### Anakin (YC S21) · Software Engineer · 2024 – 2025
+*Web data and pricing intelligence for 40+ enterprises, including Lyft, Deliveroo, Ola and Zepto.*
+- Built an account system serving **30+ services** at **~10 ms at 3–4K TPS**.
+- Distributed AWS ETL pipelines ingesting **200K+ products** across global platforms.
+- Shared scraper infrastructure and internal tooling: **~40% faster onboarding**, **~75% faster retrieval**.
+
+### Foxledger Studio · Full-Stack Developer · 2022 – 2023
+*Web3 product studio serving 10+ organisations.* One of two developers, alongside the CTO.
+- **Arcadeverse:** a community gaming platform with customisable game rooms and assets. **15 Web3 communities onboarded, 22K+ users.**
+- **Kurama:** a community engagement ecosystem with tokenization, staking, a marketplace and a feed. **2,400+ users, 900+ DAU, 7 min average time per user, 800+ feed posts.**
+
+## Personal projects
+
+Built end to end to explore a problem I care about. Each is being brought up to production quality: tests, CI and a live demo.
 
 - **[falcon](https://github.com/LifeAyush/falcon)** (Go): L7 reverse proxy and API gateway with round-robin, weighted and random load balancing.
 - **[meeting-api](https://github.com/LifeAyush/meeting-api)** (Python): streams meeting audio, identifies who is speaking, and writes the summary.
@@ -21,8 +42,6 @@ Most of what I build starts with a messy real-world question: which ride app is 
 
 ## Stack
 
-Python, TypeScript, Go, React and Node. PostgreSQL, Redis, Docker and AWS where the system needs them.
+Python, TypeScript, Go, React and Node. PostgreSQL, Redis, Pinecone, Docker and AWS (ECS, SQS, S3, EventBridge) where the system needs them.
 
-## Currently
-
-Bringing each project above up to production quality (tests, CI, live demos) and writing about how each was built on [LinkedIn](https://www.linkedin.com/in/lifeayush/).
+<sub>Earlier: IIT Roorkee · Web Development Head, Student Technical Council · Thomso platform, 1M+ hits · MiniPerplexity, 100+ users</sub>
