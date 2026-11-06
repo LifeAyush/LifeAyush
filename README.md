@@ -37,7 +37,7 @@ Built end to end to explore a problem I care about. Each is being brought up to 
 - **[meeting-api](https://github.com/LifeAyush/meeting-api)** (Python): streams meeting audio, identifies who is speaking, and writes the summary.
 - **[webpage-audit](https://github.com/LifeAyush/webpage-audit)** (TypeScript): MCP server that gives an AI agent a real browser to audit websites.
 - **[grocx](https://github.com/LifeAyush/grocx)** (Python): grocery list in, cheapest basket out across quick-commerce apps, with discounts, delivery fees and free-delivery thresholds counted.
-- **persona** ([backend](https://github.com/LifeAyush/persona_backend) · [frontend](https://github.com/LifeAyush/persona_frontend)): live ride prices for one route across Ola, Rapido and Namma Yatri.
+- **[persona](https://github.com/LifeAyush/persona)** (Python, TypeScript): ride fares for one route across Ola, Rapido and Namma Yatri, from a FastAPI scraper API.
 - **[remote-desktop](https://github.com/LifeAyush/remote-desktop)** (Python, React): web console for a Docker host, with live metrics, container management, logs and an in-container terminal.
 
 ## Stack
