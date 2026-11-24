@@ -33,6 +33,8 @@ The infrastructure that turns an LLM into an agent that uses tools, keeps state 
 - **Anakin (YC S21)** · Backend, Infra & Data · 2024 – 2025. Built an account system for **30+ services** at **~10 ms, 3–4K TPS**, and AWS ETL pipelines ingesting **200K+ products**.
 - **Foxledger Studio** · Full-Stack & UI/UX · 2022 – 2024. Web3 products for 20+ communities (BAYC, Azuki, Doodles). **22K+ users** on Arcadeverse.
 
+Day-job commits live on my company account, [AyushP672](https://github.com/AyushP672) (1,000+ private contributions this year).
+
 **Stack:** Python, TypeScript, Go, React, Node · PostgreSQL, Redis, Pinecone · Docker, AWS (ECS, SQS, S3, EventBridge)
 
 ## Say hi
