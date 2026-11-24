@@ -2,46 +2,45 @@
 
 **I find the gap. I design the system. I ship it.**
 
-Founding engineer at **Breathe**, previously **Anakin (YC S21)**. IIT Roorkee, based in Bengaluru. I've spent my career as one of the first one or two engineers in a company, taking products from 0 to 1 and owning everything from diagnosis to production.
+Founding engineer at **Breathe**, previously **Anakin (YC S21)**. I've spent my career as one of the first one or two engineers at a company, owning products from the first diagnosis to production. I work remotely across time zones. Right now I'm building agent infrastructure in public, starting from the loop and moving up.
 
-**Open to freelance and consulting work.** If you need a product built from scratch, or a prototype turned into a real system, email me at ayushypatil.work@gmail.com.
+## Building now
 
-[LinkedIn](https://www.linkedin.com/in/lifeayush/) · [Email](mailto:ayushypatil.work@gmail.com)
+### [harness](https://github.com/LifeAyush/harness): an agent runtime from first principles
 
-## Professional work
+The infrastructure that turns an LLM into an agent that uses tools, keeps state and stops reliably. It doesn't use LangChain or LangGraph: the loop, tool registry and provider boundary are written by hand so each piece can be understood and replaced.
 
-### Breathe · Founding Engineer (Full-Stack & GTM Ops) · 2025 – present
-*ESG data and reporting platform used by 40+ enterprises, including Rubix, Swiggy, CEAT and Paytm.*
-- Shipped **Supplier Intelligence**, Breathe's third product line, so enterprises can collect and assess supplier data across their value chain.
-- Built an AST-based **Formula Manager** so customers define complex ESG calculations without engineering help: **~40% less manual entry**.
-- Added **Isolation Forest** anomaly detection to the data pipeline: **~20% fewer audit corrections**.
-- Semantic emission-factor mapping on **Pinecone (1M+ vectors)** for automated Scope 3 calculations.
-- Ran GTM as engineering: CRM workflows, partner-email analysis and pipeline reports that leadership actually reads.
+- **Agent loop with hard stop conditions:** every run ends in a final answer, `max_iterations`, a wall-clock timeout, a token budget, or a model error. It never just hangs.
+- **Typed tool registry:** one pydantic model gives both the JSON Schema the model sees and the validation, so they can't drift apart. Bad arguments, exceptions and timeouts go back to the model as errors it can correct.
+- **Provider-agnostic:** works with any OpenAI-compatible `/chat/completions` server, with retries on 429/5xx. There are scripted and demo models for keyless tests.
+- **Phase 1 of 8.** Next come event-sourced sessions, tool workers, a Docker sandbox, a context engine, subagents and a distributed deployment.
 
-### Anakin (YC S21) · Software Engineer (Backend, Infra & Data Pipelines) · 2024 – 2025
-*Web data and pricing intelligence for 40+ enterprises, including Amazon, Uber, Gojek and Zepto.*
-- Built an account system serving **30+ services** at **~10 ms at 3–4K TPS**.
-- Distributed AWS ETL pipelines ingesting **200K+ products** across global platforms.
-- Shared scraper infrastructure and internal tooling: **~40% faster onboarding**, **~75% faster retrieval**.
+### Agent tooling
 
-### Foxledger Studio · Full-Stack Developer & UI/UX Designer · 2022 – 2024
-*Web3 product studio serving 20+ organisations, including Bored Ape Yacht Club, Azuki, Doodles and Beans.*
-- **Arcadeverse:** a community gaming platform with customisable game rooms and assets. **15 Web3 communities onboarded, 22K+ users.**
-- **Kurama:** a community engagement ecosystem with tokenization, staking, a marketplace and a feed. **2,400+ users, 900+ DAU, 7 min average time per user, 800+ feed posts.**
+- **[webpage-audit](https://github.com/LifeAyush/webpage-audit)** (TypeScript, MCP): an MCP server that gives an agent a real browser to audit a site. It collects evidence (console, network, timing, axe) and blocks payment, account and password actions by default.
+- **[meeting-api](https://github.com/LifeAyush/meeting-api)** (Python): streams meeting audio over a WebSocket, transcribes it with Whisper, matches speakers by voice embedding, and writes a summary with action items. Runs without a GPU.
 
-## Personal projects
+### Infra
 
-Built end to end to explore a problem I care about. Each is being brought up to production quality: tests, CI and a live demo.
+- **[falcon](https://github.com/LifeAyush/falcon)** (Go): an L7 reverse proxy and API gateway with round-robin, random and weighted balancing, runtime backend swaps, rate limiting and health checks.
+- **[remote-desktop](https://github.com/LifeAyush/remote-desktop)** (Python, React): a web console for a Docker host, with live metrics, container management, log streaming and a real TTY inside any container. Token-gated and bound to localhost by default.
 
-- **[remote-desktop](https://github.com/LifeAyush/remote-desktop)** (Python, React): web console for a Docker host, with live metrics, container management, logs and an in-container terminal.
-- **[falcon](https://github.com/LifeAyush/falcon)** (Go): L7 reverse proxy and API gateway with round-robin, weighted and random load balancing.
-- **[meeting-api](https://github.com/LifeAyush/meeting-api)** (Python): streams meeting audio, identifies who is speaking, and writes the summary.
-- **[webpage-audit](https://github.com/LifeAyush/webpage-audit)** (TypeScript): MCP server that gives an AI agent a real browser to audit websites.
-- **[grocx](https://github.com/LifeAyush/grocx)** (Python): grocery list in, cheapest basket out across quick-commerce apps, with discounts, delivery fees and free-delivery thresholds counted.
-- **[persona](https://github.com/LifeAyush/persona)** (Python, TypeScript): ride fares for one route across Ola, Rapido and Namma Yatri, from a FastAPI scraper API.
+<sub>Other builds: [grocx](https://github.com/LifeAyush/grocx) (cheapest grocery basket across quick-commerce apps) · [persona](https://github.com/LifeAyush/persona) (ride fares across Ola, Rapido and Namma Yatri)</sub>
 
-## Stack
+## Work
 
-Python, TypeScript, Go, React and Node. PostgreSQL, Redis, Pinecone, Docker and AWS (ECS, SQS, S3, EventBridge) where the system needs them.
+- **Breathe** · Founding Engineer · 2025 – present. ESG data platform used by 40+ enterprises (Swiggy, CEAT, Paytm, Rubix). I shipped the Supplier Intelligence product line, an AST-based Formula Manager (**~40% less manual entry**), Isolation Forest anomaly detection (**~20% fewer audit corrections**) and Scope 3 mapping on Pinecone (**1M+ vectors**).
+- **Anakin (YC S21)** · Backend, Infra & Data · 2024 – 2025. Built an account system for **30+ services** at **~10 ms, 3–4K TPS**, and AWS ETL pipelines ingesting **200K+ products**.
+- **Foxledger Studio** · Full-Stack & UI/UX · 2022 – 2024. Web3 products for 20+ communities (BAYC, Azuki, Doodles). **22K+ users** on Arcadeverse.
 
-<sub>Earlier: IIT Roorkee · Web Development Head @ Student Technical Council · Tech Lead @ TechShila · Thomso platform, 1M+ hits</sub>
+**Stack:** Python, TypeScript, Go, React, Node · PostgreSQL, Redis, Pinecone · Docker, AWS (ECS, SQS, S3, EventBridge)
+
+## Say hi
+
+Stuck on an agent loop, a flaky pipeline, or a prototype that needs to become a real system? I'm always up to dig into it with you. No pitch, just two engineers looking at the problem.
+
+<a href="https://cal.com/ayush-patil-s2zg3v/30min"><img alt="Book a 30 min chat on Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
+
+[Cal.com](https://cal.com/ayush-patil-s2zg3v/30min) · [LinkedIn](https://www.linkedin.com/in/lifeayush/) · [Email](mailto:ayushypatil.work@gmail.com)
+
+<sub>IIT Roorkee · Bengaluru, India</sub>
