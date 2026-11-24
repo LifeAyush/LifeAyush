@@ -22,8 +22,10 @@ The infrastructure that turns an LLM into an agent that uses tools, keeps state 
 
 ### Infra
 
-- **[falcon](https://github.com/LifeAyush/falcon)** (Go): an L7 reverse proxy and API gateway with round-robin, random and weighted balancing, runtime backend swaps, rate limiting and health checks.
+- **[falcon](https://github.com/LifeAyush/falcon)** (Go): an L7 reverse proxy and API gateway. **~54K req/s at 200 concurrent connections, zero errors** ([benchmarked against nginx](https://github.com/LifeAyush/falcon#benchmarks)). Round-robin, random and weighted balancing, runtime backend swaps, rate limiting and health checks.
 - **[remote-desktop](https://github.com/LifeAyush/remote-desktop)** (Python, React): a web console for a Docker host, with live metrics, container management, log streaming and a real TTY inside any container. Token-gated and bound to localhost by default.
+
+<sub>Other builds: [grocx](https://github.com/LifeAyush/grocx) (cheapest grocery basket across quick-commerce apps) · [persona](https://github.com/LifeAyush/persona) (ride fares across Ola, Rapido and Namma Yatri)</sub>
 
 ## Work
 
