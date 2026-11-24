@@ -43,6 +43,6 @@ Stuck on an agent loop, a flaky pipeline, or a prototype that needs to become a 
 
 <a href="https://cal.com/ayush-patil-s2zg3v/30min"><img alt="Book a 30 min chat on Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
 
-[Cal.com](https://cal.com/ayush-patil-s2zg3v/30min) · [LinkedIn](https://www.linkedin.com/in/lifeayush/) · [Email](mailto:ayushypatil.work@gmail.com)
+[Cal.com](https://cal.com/ayush-patil-s2zg3v/30min) · [LinkedIn](https://www.linkedin.com/in/lifeayush/) · [X](https://x.com/ayushpatil_dev) · [Email](mailto:ayushypatil.work@gmail.com)
 
 <sub>IIT Roorkee · Bengaluru, India</sub>
